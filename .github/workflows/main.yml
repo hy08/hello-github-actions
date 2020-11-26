@@ -6,4 +6,4 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
-        uses: ../../action-a/action.yml
+        uses: /action-a/action.yml
