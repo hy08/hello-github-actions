@@ -4,3 +4,6 @@ jobs:
   my-job:
     name: My Job
     runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: ../../action-a/action.yml
